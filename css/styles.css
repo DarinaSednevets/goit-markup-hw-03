@@ -62,6 +62,7 @@ color: var(--main-text-color);
 
 .logo {
   margin-right: 93px;
+
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -99,6 +100,10 @@ color: var(--main-text-color);
 }
 /*  ============ END HEADER  ============ */
 /*  ============ HERO  ============ */
+.hero-text{
+  padding:200px 0;
+}
+
 .hero-title {
 font-weight: 900;
 font-size: 44px;
@@ -106,19 +111,46 @@ line-height: 1.364;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
+color: #FFFFFF;
+}
+.hero-title{
+  background-color: SlateGrey;
 }
 .btn{
+margin-top: 30px;
+
 font-weight: 700;
 font-size: 16px;
 line-height: 1.875;
 letter-spacing: 0.06em;
-color: black;
-/* сделать color: #FFFFFF; когда будет фон*/
+color:#FFFFFF;
+
+padding: 10px 32px;
+min-width: 200px;
+height: 50px;
+left: 700px;
+top: 350px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
 }
 
 /*  ============ END HERO  ============ */
 
 /*  ============ Advantages "Power"============ */
+.advantages-padding{
+  padding-top: 94px;
+}
+.adv .list{
+  display: flex;
+}
+.power-title{
+  margin-bottom:26px ;
+}
+.adv-text:not(:last-child){
+  margin-right:30px;
+}
 .power-title{
 font-weight: 700;
 font-size: 14px;
