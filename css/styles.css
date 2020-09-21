@@ -16,7 +16,9 @@ body {
   font-family: var(--main-font);
   font-style: normal;
 }
-/*  ============ HEADER  ============ */
+img{
+  display: block;
+}
 .link {
   text-decoration: none;
 }
@@ -24,14 +26,32 @@ body {
   list-style: none;
   font-style: normal;
 }
-img{
-  display: block;
-}
 .container {
   width: 1200px;
   padding:0 15px;
   margin: 0 auto;
 }
+/*  ============ HEADER  ============ */
+.header{
+  padding: 24px 0 25px;
+}
+
+.header .container{
+display: flex;
+align-items: center;
+}
+.navigation{
+  display: flex;
+  align-items: center;
+}
+.header .contacts{
+  display: flex;
+  margin-left: auto;
+}
+.header .contacts .mail{
+  margin-right: 50px;
+}
+
 .header-link {
 font-weight: 500;
 font-size: 14px;
@@ -39,7 +59,9 @@ line-height: 1.143;
 letter-spacing: 0.02em;
 color: var(--main-text-color);
 }
+
 .logo {
+  margin-right: 93px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -50,12 +72,19 @@ color: var(--main-text-color);
 .logo-web {
   color: var(--web-word-color);
 }
+.navigation-list-item:not(:last-child){
+  margin-right: 50px;
+}
+
+
 .listnav {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
 }
+
 .header-link:hover,
 .header-link:focus {
   color: var(--header-link-hover-f-a);
