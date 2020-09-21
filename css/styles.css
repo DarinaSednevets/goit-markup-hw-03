@@ -1,0 +1,209 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --main-text-color:#212121;
+  --web-word-color: #2196f3;
+  --studio-word-color: #000000;
+  --header-link-hover-f-a: #2196F3;
+  --filter-hover-f-a:  #ffffff;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+}
+/*  ============ HEADER  ============ */
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+  font-style: normal;
+}
+img{
+  display: block;
+}
+.container {
+  width: 1200px;
+  padding:0 15px;
+  margin: 0 auto;
+}
+.header-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.02em;
+color: var(--main-text-color);
+}
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--studio-word-color);
+}
+.logo-web {
+  color: var(--web-word-color);
+}
+.listnav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--header-link-hover-f-a);
+}
+.header-contacts {
+  color: #757575;
+}
+.header-contacts:hover,
+.header-contacts:focus,
+.header-contacts:active {
+  color: var(--header-link-hover-f-a);
+}
+/*  ============ END HEADER  ============ */
+/*  ============ HERO  ============ */
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.364;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+.btn{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.06em;
+color: black;
+/* сделать color: #FFFFFF; когда будет фон*/
+}
+
+/*  ============ END HERO  ============ */
+
+/*  ============ Advantages "Power"============ */
+.power-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--main-text-color);
+}
+.power-subtitle{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/*  ============ End Advantages "Power" ============ */
+
+/*  ============ About us ============ */
+.what-we-do{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.167;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-text-color);
+}
+/*  ============ End About us ============ */
+
+/*  ============ Our team ============ */
+.our-team{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.167;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-text-color); 
+}
+.name{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.188;
+*/text-align: center; возможно,потом пригодится*/
+letter-spacing: 0.03em;
+color: #212121;
+}
+.position{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.188;
+*/text-align: center;*/
+letter-spacing: 0.03em;
+color: #757575;
+}
+/*  ============ End Our team ============ */
+
+
+/*  ============ FOOTER CONTACTS  ============ */
+
+.footer-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #000000;/*сделать потом color: #FFFFFF; когда будет фон*/
+}
+
+.footerlogo-web {
+  color: var(--web-word-color);
+}
+.footer-links {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #000000;
+} /* Применить при фоне rgba(255, 255, 255, 0.6);*/
+.street {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: black;
+  /*сделать белый когда будет фон */
+}
+
+  /*  ============ END FOOTER CONTACTS  ============ */
+
+/*  ============ main content portfolio page  ============ */
+  .filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.filter:hover,
+.filter:focus,
+.filter:active {
+  color: var(--filter-hover-f-a);
+}
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+.project-type {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+color: #757575;
+
+/*  ============end  main content portfolio page  ============ */
