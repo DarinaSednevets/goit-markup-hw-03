@@ -332,6 +332,13 @@ img {
 }
 .item-portfolio {
   margin-bottom: 30px;
+
+  width: 370px;
+  height: 404px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 .preview-list .project-name {
   font-weight: 700;
